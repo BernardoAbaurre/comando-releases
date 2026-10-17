@@ -1,0 +1,96 @@
+I
+1100 version
+JOY
+
+# Auto-bind profile for the g1000-autopilot panel (Tier 1 HID, ADR-0003).
+# Dropped into X-Plane's "Resources/joystick configs/" folder, this makes
+# X-Plane recognize the panel by USB ID and pre-assign every button to a
+# default autopilot command, so the customer never binds anything by hand.
+#
+# Format copied from the .joy files X-Plane 11 ships with (see
+# installer/README.md): the first line must be "I", comments go on their
+# own lines (never after a command), and unused buttons are sim/none/none.
+#
+# Button numbers are 0-based = the firmware's HID bit order
+# (firmware/products/g1000-autopilot/product_config.h: ap_button_id_t +
+# AP_HID_BIT_*); joy.cpl shows the same buttons 1-based.
+#
+# Profile version, read by the installer to tell an installed copy is out
+# of date - bump it whenever this file changes:
+# comando-version: 2
+
+OS: Windows
+OS: Linux
+OS: Mac
+
+Name: G1000-style Autopilot Panel
+Display: G1000-style Autopilot Panel
+# USB VID:PID in decimal, exactly as X-Plane writes it to
+# "X-Plane Joystick Settings.prf" (_joy_unique_id): 0xCAFE = 51966,
+# 0x4005 = 16389.
+# TODO_CRITICAL (see installer/device_registry.json): 0xCAFE is a shared
+# TinyUSB test VID, not one registered to this product. Update this line
+# once a real VID/PID is obtained.
+ID: VID:51966PID:16389
+
+Assignments:
+# --- Buttons 0-11: the 12 momentary push-buttons ---
+# AP, HDG, NAV, APR, VS, FLC, ALT, VNAV, BC
+Button 0: sim/autopilot/servos_toggle
+Button 1: sim/autopilot/heading
+Button 2: sim/autopilot/NAV
+Button 3: sim/autopilot/approach
+Button 4: sim/autopilot/vertical_speed
+Button 5: sim/autopilot/level_change
+Button 6: sim/autopilot/altitude_hold
+Button 7: sim/autopilot/vnav
+Button 8: sim/autopilot/back_course
+# XFR (PFD/MFD transfer) is G1000-specific, no generic X-Plane command.
+Button 9: sim/none/none
+# FD, CWS
+Button 10: sim/autopilot/fdir_toggle
+Button 11: sim/autopilot/control_wheel_steer
+
+# --- Buttons 12-17: encoder pushes and rotation pulses ---
+# HDG push, ALT push (sync to current heading / altitude)
+Button 12: sim/autopilot/heading_sync
+Button 13: sim/autopilot/altitude_sync
+# HDG CW / CCW
+Button 14: sim/autopilot/heading_up
+Button 15: sim/autopilot/heading_down
+# ALT CW / CCW
+Button 16: sim/autopilot/altitude_up
+Button 17: sim/autopilot/altitude_down
+
+# --- Buttons 18-21: "fast turn" flags (HDG CW/CCW, ALT CW/CCW) ---
+# Pressed together with buttons 14-17 on a fast detent. Deliberately
+# unbound: the X-Plane plugin reads them (ADR-0011); without it a fast
+# detent is just the normal 1-step pulse above.
+Button 18: sim/none/none
+Button 19: sim/none/none
+Button 20: sim/none/none
+Button 21: sim/none/none
+
+# --- Buttons 22-27: fast-detent count for those fast pulses ---
+# Three bits per knob (HDG = buttons 22-24, ALT = buttons 25-27): how many
+# fast detents the pulse stands for, minus one. Unbound like the flags;
+# only the plugin reads them.
+Button 22: sim/none/none
+Button 23: sim/none/none
+Button 24: sim/none/none
+Button 25: sim/none/none
+Button 26: sim/none/none
+Button 27: sim/none/none
+
+# --- Buttons 28-44: turn counters (nothing to bind) ---
+# Button 28 is held permanently ("counters present"); buttons 29-36 (HDG)
+# and 37-44 (ALT) are each knob's 8-bit turn counter. The plugin reads them
+# every frame to move the bug (firmware 1.1+); they are left unbound on
+# purpose, since a counter bit toggles as the knob turns and would fire
+# any command assigned to it.
+
+# --- Panel image (optional, deferred until a product photo exists) ---
+# Uncomment with a PNG next to this file and each button's pixel position:
+# View: Face
+# Image: g1000-autopilot.png
+# Button 0 (AP): <x> <y>

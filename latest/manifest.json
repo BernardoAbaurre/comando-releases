@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "release": "v2026.10.17-1735",
+  "commit": "75be425",
+  "published": "2026-10-17T20:36:58+00:00",
+  "notes": "Firmware 1.1 + plugin 0.3.0: o rumo/altitude seguem o knob por um contador de giro, sem perder cliques em FPS baixo.",
+  "installer": {
+    "version": "1.0.0",
+    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.17-1541"
+  },
+  "xplane_plugin": {
+    "version": "0.3.0",
+    "windows": {
+      "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.17-1735/comando-xplane-plugin-0.3.0-windows.zip",
+      "sha256": "bee2e69a3f9f4586a183b7af76661b3b7a420001e4adb73f929f8c317d7b4be0",
+      "size": 26419
+    },
+    "macos": {
+      "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.17-1735/comando-xplane-plugin-0.3.0-macos.zip",
+      "sha256": "0a887c00f5853d4593cfae90016539233a089867839adb0bff495a984cb2d93f",
+      "size": 17647
+    }
+  },
+  "products": {
+    "g1000-autopilot": {
+      "firmware": {
+        "version": "1.1",
+        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.17-1735/g1000-autopilot-firmware-1.1.uf2",
+        "sha256": "6cd077d01c08000c0d1380f5b73f71d285283746ec2848a0d56fb2ede7ad9b04",
+        "size": 40960
+      },
+      "xplane_joy": {
+        "version": "2",
+        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.17-1735/g1000-autopilot-profile-2.joy",
+        "sha256": "959400ebcb2373409d307be036f60c4bf6ca0a2dde77d88c24679278b74f6464",
+        "size": 3649
+      }
+    }
+  }
+}
