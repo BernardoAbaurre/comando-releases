@@ -17,7 +17,7 @@ JOY
 #
 # Profile version, read by the installer to tell an installed copy is out
 # of date - bump it whenever this file changes:
-# comando-version: 2
+# comando-version: 3
 
 OS: Windows
 OS: Linux
@@ -45,11 +45,11 @@ Button 5: sim/autopilot/level_change
 Button 6: sim/autopilot/altitude_hold
 Button 7: sim/autopilot/vnav
 Button 8: sim/autopilot/back_course
-# XFR (PFD/MFD transfer) is G1000-specific, no generic X-Plane command.
-Button 9: sim/none/none
-# FD, CWS
+# XFR: pitch up (autopilot nose up)
+Button 9: sim/autopilot/nose_up
+# FD, CWS (CWS: pitch down, autopilot nose down)
 Button 10: sim/autopilot/fdir_toggle
-Button 11: sim/autopilot/control_wheel_steer
+Button 11: sim/autopilot/nose_down
 
 # --- Buttons 12-17: encoder pushes and rotation pulses ---
 # HDG push, ALT push (sync to current heading / altitude)

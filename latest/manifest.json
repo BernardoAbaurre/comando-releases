@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.17-1813",
-  "commit": "780f070",
-  "published": "2026-10-17T21:13:16+00:00",
-  "notes": "Status LED is now Comando blue instead of green",
+  "release": "v2026.10.17-1857",
+  "commit": "68f5a66",
+  "published": "2026-10-17T21:57:43+00:00",
+  "notes": "XFR now pitches the autopilot nose up and CWS nose down.",
   "installer": {
     "version": "1.0.0",
     "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.17-1541"
@@ -31,10 +31,10 @@
         "size": 40960
       },
       "xplane_joy": {
-        "version": "2",
-        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.17-1735/g1000-autopilot-profile-2.joy",
-        "sha256": "959400ebcb2373409d307be036f60c4bf6ca0a2dde77d88c24679278b74f6464",
-        "size": 3649
+        "version": "3",
+        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.17-1857/g1000-autopilot-profile-3.joy",
+        "sha256": "326f5fbdb1856f1c4dacedf4b26bb15649e6dd2dc30c67841846c354b3cb1fd5",
+        "size": 3650
       }
     }
   }
