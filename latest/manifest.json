@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.25-1938",
-  "commit": "ef951a1",
-  "published": "2026-10-25T22:38:26+00:00",
-  "notes": "Corrige o binding autom\u00e1tico do MSFS 2020 lendo perfis WGS e usando o ProductID correto",
+  "release": "v2026.10.25-1948",
+  "commit": "9188307",
+  "published": "2026-10-25T22:48:37+00:00",
+  "notes": "Corrige o congelamento durante a busca de perfis MSFS",
   "installer": {
-    "version": "1.2.4",
-    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1938"
+    "version": "1.2.5",
+    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1948"
   },
   "xplane_plugin": {
     "version": "0.3.0",
