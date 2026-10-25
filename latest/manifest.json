@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.25-1802",
-  "commit": "ab57c5d",
-  "published": "2026-10-25T21:04:24+00:00",
-  "notes": "Installer 1.2.0: on the MSFS tab it also installs the MSFS 2020 input test module (COM-63)",
+  "release": "v2026.10.25-1817",
+  "commit": "c80ccdf",
+  "published": "2026-10-25T21:19:54+00:00",
+  "notes": "Installer 1.2.1: real MSFS input profile for the g1000-autopilot panel (buttons and knobs bound automatically)",
   "installer": {
-    "version": "1.2.0",
-    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1802"
+    "version": "1.2.1",
+    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1817"
   },
   "xplane_plugin": {
     "version": "0.3.0",
