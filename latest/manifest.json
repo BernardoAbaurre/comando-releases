@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.17-1857",
-  "commit": "68f5a66",
-  "published": "2026-10-17T21:57:43+00:00",
-  "notes": "XFR now pitches the autopilot nose up and CWS nose down.",
+  "release": "v2026.10.25-1625",
+  "commit": "4e9dbf8",
+  "published": "2026-10-25T19:29:06+00:00",
+  "notes": "Live panel detection in installer, show installed vs latest versions",
   "installer": {
-    "version": "1.0.0",
-    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.17-1541"
+    "version": "1.1.0",
+    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1625"
   },
   "xplane_plugin": {
     "version": "0.3.0",
