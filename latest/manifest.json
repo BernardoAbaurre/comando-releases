@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.25-1625",
-  "commit": "4e9dbf8",
-  "published": "2026-10-25T19:29:06+00:00",
-  "notes": "Live panel detection in installer, show installed vs latest versions",
+  "release": "v2026.10.25-1802",
+  "commit": "ab57c5d",
+  "published": "2026-10-25T21:04:24+00:00",
+  "notes": "Installer 1.2.0: on the MSFS tab it also installs the MSFS 2020 input test module (COM-63)",
   "installer": {
-    "version": "1.1.0",
-    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1625"
+    "version": "1.2.0",
+    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1802"
   },
   "xplane_plugin": {
     "version": "0.3.0",
