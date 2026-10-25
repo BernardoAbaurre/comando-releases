@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.25-1829",
-  "commit": "b03fd79",
-  "published": "2026-10-25T21:30:55+00:00",
-  "notes": "Installer 1.2.2: resizable window with a scrollbar on small screens",
+  "release": "v2026.10.25-1924",
+  "commit": "22eeda9",
+  "published": "2026-10-25T22:25:08+00:00",
+  "notes": "Corrige o binding autom\u00e1tico do MSFS usando o GUID real do dispositivo",
   "installer": {
-    "version": "1.2.2",
-    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1829"
+    "version": "1.2.3",
+    "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1924"
   },
   "xplane_plugin": {
     "version": "0.3.0",
