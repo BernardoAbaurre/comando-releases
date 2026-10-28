@@ -1,25 +1,25 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.28-1344",
-  "commit": "0b20ff1",
-  "published": "2026-10-28T16:44:31+00:00",
-  "notes": "Firmware 1.3: drops the unused fast-click-count buttons; encoder behavior unchanged.",
+  "release": "v2026.10.28-1750",
+  "commit": "f13c6ed",
+  "published": "2026-10-28T20:53:22+00:00",
+  "notes": "Firmware 1.3 and X-Plane plugin 0.4.0 (leaner HID report, turn counters moved): update the panel firmware together with the plugin.",
   "installer": {
     "version": "1.2.5",
     "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1948"
   },
   "xplane_plugin": {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "windows": {
-      "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.17-1735/comando-xplane-plugin-0.3.0-windows.zip",
-      "sha256": "bee2e69a3f9f4586a183b7af76661b3b7a420001e4adb73f929f8c317d7b4be0",
-      "size": 26419
+      "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.28-1750/comando-xplane-plugin-0.4.0-windows.zip",
+      "sha256": "b333c65cbdddb47301e1846be193132f56aa6cff5e7012c7b673148a169211d8",
+      "size": 26253
     },
     "macos": {
-      "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.17-1735/comando-xplane-plugin-0.3.0-macos.zip",
-      "sha256": "0a887c00f5853d4593cfae90016539233a089867839adb0bff495a984cb2d93f",
-      "size": 17647
+      "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.28-1750/comando-xplane-plugin-0.4.0-macos.zip",
+      "sha256": "5cd49e5a98cdec2985b4d926f13ee9c6e78417f38aea593d16301c24b602bb99",
+      "size": 17203
     }
   },
   "products": {
@@ -31,10 +31,10 @@
         "size": 40960
       },
       "xplane_joy": {
-        "version": "3",
-        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.17-1857/g1000-autopilot-profile-3.joy",
-        "sha256": "326f5fbdb1856f1c4dacedf4b26bb15649e6dd2dc30c67841846c354b3cb1fd5",
-        "size": 3650
+        "version": "4",
+        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.28-1750/g1000-autopilot-profile-4.joy",
+        "sha256": "593a1febb9ce6f780afd71b756fa8d9ee84ebec7e243c59d23caf96ab810f114",
+        "size": 3272
       }
     }
   }

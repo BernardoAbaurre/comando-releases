@@ -17,7 +17,7 @@ JOY
 #
 # Profile version, read by the installer to tell an installed copy is out
 # of date - bump it whenever this file changes:
-# comando-version: 3
+# comando-version: 4
 
 OS: Windows
 OS: Linux
@@ -71,23 +71,12 @@ Button 19: sim/none/none
 Button 20: sim/none/none
 Button 21: sim/none/none
 
-# --- Buttons 22-27: fast-detent count for those fast pulses ---
-# Three bits per knob (HDG = buttons 22-24, ALT = buttons 25-27): how many
-# fast detents the pulse stands for, minus one. Unbound like the flags;
-# only the plugin reads them.
-Button 22: sim/none/none
-Button 23: sim/none/none
-Button 24: sim/none/none
-Button 25: sim/none/none
-Button 26: sim/none/none
-Button 27: sim/none/none
-
-# --- Buttons 28-44: turn counters (nothing to bind) ---
-# Button 28 is held permanently ("counters present"); buttons 29-36 (HDG)
-# and 37-44 (ALT) are each knob's 8-bit turn counter. The plugin reads them
-# every frame to move the bug (firmware 1.1+); they are left unbound on
-# purpose, since a counter bit toggles as the knob turns and would fire
-# any command assigned to it.
+# --- Buttons 22-38: turn counters (nothing to bind) ---
+# Button 22 is held permanently ("counters present"); buttons 23-30 (HDG)
+# and 31-38 (ALT) are each knob's 8-bit turn counter. The plugin reads them
+# every frame to move the bug (firmware 1.3+, plugin 0.4.0+); they are left
+# unbound on purpose, since a counter bit toggles as the knob turns and
+# would fire any command assigned to it.
 
 # --- Panel image (optional, deferred until a product photo exists) ---
 # Uncomment with a PNG next to this file and each button's pixel position:
