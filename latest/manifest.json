@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.25-1948",
-  "commit": "9188307",
-  "published": "2026-10-25T22:48:37+00:00",
-  "notes": "Corrige o congelamento durante a busca de perfis MSFS",
+  "release": "v2026.10.28-1344",
+  "commit": "0b20ff1",
+  "published": "2026-10-28T16:44:31+00:00",
+  "notes": "Firmware 1.3: drops the unused fast-click-count buttons; encoder behavior unchanged.",
   "installer": {
     "version": "1.2.5",
     "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1948"
@@ -25,9 +25,9 @@
   "products": {
     "g1000-autopilot": {
       "firmware": {
-        "version": "1.2",
-        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.17-1813/g1000-autopilot-firmware-1.2.uf2",
-        "sha256": "a58120c57a02a57a56ce729265695dab574e41c7750153b46074949f24d85d09",
+        "version": "1.3",
+        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.28-1344/g1000-autopilot-firmware-1.3.uf2",
+        "sha256": "b986a08c2861463d86c7dd80903b4b44df6e9d7cbb9a0c9f89f63d68cc4c0b2d",
         "size": 40960
       },
       "xplane_joy": {
