@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.28-1757",
-  "commit": "85a7ccb",
-  "published": "2026-10-28T20:57:36+00:00",
-  "notes": "Firmware 1.4: HID report slimmed to 39 buttons, turn counters moved. Needs X-Plane plugin 0.4.0 (already released); reflash the panel firmware.",
+  "release": "v2026.10.28-2058",
+  "commit": "c497be3",
+  "published": "2026-10-28T23:58:14+00:00",
+  "notes": "G1000 autopilot firmware 1.5: encoders enter fast mode after 4 close detents in a row.",
   "installer": {
     "version": "1.2.5",
     "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1948"
@@ -25,9 +25,9 @@
   "products": {
     "g1000-autopilot": {
       "firmware": {
-        "version": "1.4",
-        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.28-1757/g1000-autopilot-firmware-1.4.uf2",
-        "sha256": "eecf1aef0831a80a8a36711f1c2521628d28f72ab96ff9639852cbe3ecf822f8",
+        "version": "1.5",
+        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.28-2058/g1000-autopilot-firmware-1.5.uf2",
+        "sha256": "d5e873332784c4f7347623e7c2accddec2604ff150c3c08ab8d9afe403b54deb",
         "size": 40960
       },
       "xplane_joy": {
