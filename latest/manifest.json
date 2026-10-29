@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "channel": "stable",
-  "release": "v2026.10.28-2058",
-  "commit": "c497be3",
-  "published": "2026-10-28T23:58:14+00:00",
-  "notes": "G1000 autopilot firmware 1.5: encoders enter fast mode after 4 close detents in a row.",
+  "release": "v2026.10.28-2106",
+  "commit": "4640792",
+  "published": "2026-10-29T00:06:30+00:00",
+  "notes": "G1000 autopilot firmware 1.6: the fast encoder mode now needs 240 ms between detents (was 120 ms), so quick turns are picked up more reliably.",
   "installer": {
     "version": "1.2.5",
     "page": "https://github.com/BernardoAbaurre/comando-releases/releases/tag/v2026.10.25-1948"
@@ -25,9 +25,9 @@
   "products": {
     "g1000-autopilot": {
       "firmware": {
-        "version": "1.5",
-        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.28-2058/g1000-autopilot-firmware-1.5.uf2",
-        "sha256": "d5e873332784c4f7347623e7c2accddec2604ff150c3c08ab8d9afe403b54deb",
+        "version": "1.6",
+        "url": "https://github.com/BernardoAbaurre/comando-releases/releases/download/v2026.10.28-2106/g1000-autopilot-firmware-1.6.uf2",
+        "sha256": "60bec9daee4081abebd41651f358fdaaddbf001ad784314204a03bdcbc863706",
         "size": 40960
       },
       "xplane_joy": {
